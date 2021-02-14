@@ -71,7 +71,7 @@ def destroy():
 if __name__ == '__main__':
 	destroy()
 	setup()
-	try:B
+	try:
 		main()
 	# When 'Ctrl+C' is pressed, the child program 
 	# destroy() will be  executed.
