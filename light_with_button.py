@@ -47,9 +47,9 @@ def swLed(ev=None):
 	Led_status = not Led_status
 	GPIO.output(LedPin, Led_status)
 	if Led_status:
-		print ("LED OFF...")
+		print ("LED OFF...'if Led_status'")
 	else:
-		print ("...LED ON")	
+		print ("...LED ON 'if not Led_status'")	
 		
 # Define a main function for main process
 def main():
