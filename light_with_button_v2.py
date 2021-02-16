@@ -9,4 +9,8 @@ mySwitch = Button(2)
 mySwitch.when_pressed = myLED.on
 mySwitch.when_released = myLED.off
 
+if myLED.on: 
+    print("myLED on")
+else:
+    print ("myLED off")
 pause()
