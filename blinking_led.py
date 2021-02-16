@@ -36,13 +36,12 @@ def main():
 		print ("'LED ON..' GPIO.LOW")
 		# Turn on LED
 		GPIO.output(LedPin, GPIO.LOW)
-		time.sleep(5.0)
+		time.sleep(2.0)
 		print ("....'LED OFF...' GPIO.HIGH")
 		# Turn off LED 
 		GPIO.output(LedPin, GPIO.HIGH) 
-		time.sleep(3.0)
-    while False:
-        print ("No Light")
+		time.sleep(2.0)
+
 
 # Define a destroy function for clean up everything after
 # the script finished 
